@@ -1,4 +1,4 @@
-# Các ví dụ cho CrokPocket bởi (https://www.hackster.io/megazoid)
+# Các ví dụ cho CrokPocket (https://www.hackster.io/megazoid)
 
 ## Thiết bị ESP32-S3 máy chơi game cầm tay
 ### Screenshots
