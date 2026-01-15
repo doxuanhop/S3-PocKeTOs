@@ -138,7 +138,7 @@ void setup() {
 void loop() {
   static unsigned long pressA = 0, pressB = 0;
 
-  // 1. Xử lý nút B - Giữ 15 giây để hiện Menu nguồn
+  // 1. Xử lý nút B - Giữ 10 giây để hiện Menu nguồn
   if (digitalRead(KEY_B) == LOW) {
     if (pressB == 0) pressB = millis();
     if (currentMode == LAUNCHER && (millis() - pressB > 10000)) {
@@ -202,4 +202,5 @@ void loop() {
       delay(300);
     }
   }
+
 }
